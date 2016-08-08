@@ -1,0 +1,103 @@
+/*
+    * Busy 收集 整理
+ */
+/*雅虎（YUI 3）reset*/
+/*Normalize.css*/
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+img {
+  border: none;
+}
+input,
+select,
+textarea {
+  outline: none;
+  border: none;
+  background: none;
+}
+textarea {
+  resize: none;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: 'Topic-fonts';
+  src: url('../fonts/Cabin-Regular.ttf');
+}
+a {
+  color: #5b8bb9;
+}
+.wrap {
+  max-width: 960px;
+  margin: 2% auto;
+  display: flex;
+  border-radius: 8px;
+  color: #ffffff;
+  box-shadow: 10px 10px 10px #aaaaaa;
+  background-color: #2cd2ca;
+  font-family: Topic-fonts;
+}
+.wrap .left-content {
+  width: 40%;
+}
+.wrap .left-content img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  overflow: hidden;
+  margin: 15% 0 15% 65%;
+  border-radius: 50%;
+}
+.wrap .left-content span {
+  font-size: 20px;
+  color: #2cd2ca;
+  background-color: #ffffff;
+}
+.wrap .left-content ul li {
+  text-align: right;
+  margin-bottom: 5%;
+  margin-right: 12%;
+}
+.wrap .left-content ul li p {
+  line-height: 25px;
+}
+.wrap .right-content {
+  width: 60%;
+}
+.wrap .right-content header {
+  margin: 12% 0;
+}
+.wrap .right-content ul li {
+  margin-bottom: 5%;
+  padding-left: 2%;
+  border-left: 6px solid #ffffff;
+}
+.wrap .right-content ul li p {
+  line-height: 25px;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+footer div {
+  height: 40px;
+  width: 120px;
+  background-color: #2cd2ca;
+  margin-right: 20px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #999;
+}
+footer div a {
+  text-decoration: none;
+  color: #fff;
+}
